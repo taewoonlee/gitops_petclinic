@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: petclinic
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: petclinic
@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-<<<<<<< HEAD
           image: 818521988849.dkr.ecr.ap-northeast-2.amazonaws.com/bluerain-gitops-repo:af3a0f9f7db21dac4dae8c86bf62d6e9e4ec1a51
-=======
-          image: 818521988849.dkr.ecr.ap-northeast-2.amazonaws.com/bluerain-gitops-repo:af3a0f9f7db21dac4dae8c86bf62d6e9e4ec1a51
->>>>>>> acfab37 (replica 1 rollback)
           ports:
             - containerPort: 8080
           resources:
