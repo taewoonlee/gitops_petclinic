@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-          image: 818521988849.dkr.ecr.ap-northeast-2.amazonaws.com/bluerain-gitops-repo:d1f1958989ce8f15870b00dfba1a4451b9e7e2fa
+          image: 818521988849.dkr.ecr.ap-northeast-2.amazonaws.com/bluerain-gitops-repo:766345aef0dd58ee21e44b099c4f5479d20364aa
           ports:
             - containerPort: 8080
           resources:
